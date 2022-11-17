@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
+    public function loginView()
+    {
+        return view('admin.login');
+    }
+    
     public function login(Request $request)
     {
         $request->validate([
@@ -17,17 +22,18 @@ class AuthController extends Controller
 
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            if(Auth::user()->is_admin == 1){
+            if (Auth::user()->is_admin == 1) {
                 return redirect()->route('dashboard')
-                ->with('success','You have Successfully loggedin');
+                    ->with('success', 'You have Successfully loggedin');
             }
-            return redirect("login")->with('faild','Oppes! Not access.');
+            return redirect("login")->with('faild', 'Oppes! Not access.');
         }
 
-        return redirect("login")->with('faild','Oppes! You have entered invalid credentials');
+        return redirect("login")->with('faild', 'Oppes! You have entered invalid credentials');
     }
 
-    public function logout(){
+    public function logout()
+    {
         Auth::logout();
         return redirect()->route('home');
     }

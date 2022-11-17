@@ -306,13 +306,16 @@
        <div class="row">
            <div class="col-lg-6">
                <div class="advertise-item wow fadeInUp delay-0-2s">
+                <form action="{{route('VerifyCertificate')}}" method="post">
+                    @csrf
                     <div class="content">
                         <h4>Verification Certificate </h4>
-                        <input type="text" placeholder="Certifiacte ID : ................" required>
+                        <input type="text" name="cer_no" placeholder="Certifiacte ID : ................" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" minlength="9" maxlength="9" required>
                         <br>
                         <br>
-                        <a href="#" class="theme-btn">Genrate Certificate <i class="fas fa-arrow-right"></i></a>
+                        <button type="submit" class="theme-btn">Verify Certificate <i class="fas fa-arrow-right"></i></button>
                     </div>
+                    </form>
                     <div class="image">
                         <img src="{{asset('assets/images/advertise/advertise1.png')}}" alt="Advertise">
                     </div>
@@ -326,7 +329,7 @@
 
                         <p>Cource</p>
                         <p>Details</p>
-                        <a href="#" class="theme-btn style-two">Pdf Dounloade <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="theme-btn style-two">Pdf Download <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <div class="image">
                         <img src="{{asset('assets/images/advertise/advertise2.png')}}" alt="Advertise">

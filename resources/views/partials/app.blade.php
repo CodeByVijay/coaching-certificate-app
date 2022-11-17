@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <!--====== Title ======-->
     <title>Vip Digital Hub - @yield('title')</title>
@@ -35,7 +36,16 @@
     <link rel="stylesheet" href="{{asset('assets/css/slick.min.css')}}">
     <!--====== Main Style ======-->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    <style>
 
+        input[type=text] {
+          border: 2px solid red;
+          border-radius: 4px;
+          width: 450px;
+        }
+
+        </style>
+@stack('style')
 </head>
 
 <body>
@@ -69,14 +79,9 @@
     <script src="{{asset('assets/js/wow.min.js')}}"></script>
     <!-- Custom script -->
     <script src="{{asset('assets/js/script.js')}}"></script>
-<style>
+@stack('script')
 
-input[type=text] {
-  border: 2px solid red;
-  border-radius: 4px;
-}
 
-</style>
 </body>
 
 </html>
