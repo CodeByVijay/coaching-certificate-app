@@ -16,7 +16,7 @@
 
                 <div class="col-lg-5">
                     <div class="hero-right-images text-lg-right wow fadeInUp delay-0-2s">
-                        <img src="{{asset('assets/images/hero/1.jpg')}}" alt="Hero">
+                        <img src="{{asset('public/assets/images/hero/1.jpg')}}" alt="Hero">
                     </div>
                 </div>
                 <div class="col-lg-1">
@@ -55,7 +55,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-item wow fadeInUp delay-0-2s">
                         <div class="image">
-                            <img src="{{asset('assets/images/features/icon1.png')}}" alt="Icon">
+                            <img src="{{asset('public/assets/images/features/icon1.png')}}" alt="Icon">
                         </div>
                         <div class="content">
                             <h4>Online Courses From Experts</h4>
@@ -66,7 +66,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-item wow fadeInUp delay-0-4s">
                         <div class="image">
-                            <img src="{{asset('assets/images/features/icon2.png')}}" alt="Icon">
+                            <img src="{{asset('public/assets/images/features/icon2.png')}}" alt="Icon">
                         </div>
                         <div class="content">
                             <h4>Over 500+ High Quality Topics</h4>
@@ -77,7 +77,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-item wow fadeInUp delay-0-6s">
                         <div class="image">
-                            <img src="{{asset('assets/images/features/icon1.png')}}" alt="Icon">
+                            <img src="{{asset('public/assets/images/features/icon1.png')}}" alt="Icon">
                         </div>
                         <div class="content">
                             <h4>Event & Program Video Update</h4>
@@ -87,8 +87,8 @@
                 </div>
             </div>
         </div>
-        <img class="rectangle-dots" src="{{asset('assets/images/shapes/rectangle-dots.png')}}" alt="Shape">
-        <img class="circle-dots" src="{{asset('assets/images/shapes/circle-dots.png')}}" alt="Shape">
+        <img class="rectangle-dots" src="{{asset('public/assets/images/shapes/rectangle-dots.png')}}" alt="Shape">
+        <img class="circle-dots" src="{{asset('public/assets/images/shapes/circle-dots.png')}}" alt="Shape">
     </section>
     <!-- Features Section End -->
 
@@ -120,7 +120,7 @@
                     <div class="feature-six-item mt-30 wow fadeInUp delay-0-2s">
                         <div class="content">
                             <div class="icon">
-                                <img src="{{asset('assets/images/features/feature-five-icon1.png')}}" alt="Icon">
+                                <img src="{{asset('public/assets/images/features/feature-five-icon1.png')}}" alt="Icon">
                             </div>
                             <h5>Exclusive Courses</h5>
                             <p>Join exclusive courses based on your industry. No written Examination. Student need to submit
@@ -134,7 +134,7 @@
                     <div class="feature-six-item wow fadeInUp delay-0-4s">
                         <div class="content">
                             <div class="icon">
-                                <img src="{{asset('assets/images/features/feature-five-icon2.png')}}" alt="Icon">
+                                <img src="{{asset('public/assets/images/features/feature-five-icon2.png')}}" alt="Icon">
                             </div>
                             <h5>Creative Advisors</h5>
                             <p> Creative Advisors is an art advisory and creative project management consultancy born out of
@@ -147,7 +147,7 @@
                     <div class="feature-six-item mt-30 wow fadeInUp delay-0-6s">
                         <div class="content">
                             <div class="icon">
-                                <img src="{{asset('assets/images/features/feature-five-icon3.png')}}" alt="Icon">
+                                <img src="{{asset('public/assets/images/features/feature-five-icon3.png')}}" alt="Icon">
                             </div>
                             <h5>Certifications</h5>
                             <p>Certifications are awarded by professional organizations to confirm that you have specific
@@ -160,7 +160,7 @@
                     <div class="feature-six-item wow fadeInUp delay-0-8s">
                         <div class="content">
                             <div class="icon">
-                                <img src="{{asset('assets/images/features/feature-five-icon4.png')}}" alt="Icon">
+                                <img src="{{asset('public/assets/images/features/feature-five-icon4.png')}}" alt="Icon">
                             </div>
                             <h5>Video Tutorials</h5>
                             <p>Video tutorials are the go-to instructional method for demonstrating a process or providing
@@ -211,7 +211,7 @@
             <div class="row">
                 <div class="col-lg-5 ">
                     <div class="about-man rmb-75 wow fadeInLeft delay-0-2s">
-                        <img src="{{asset('assets/images/about/1.png')}}" alt="Man">
+                        <img src="{{asset('public/assets/images/about/1.png')}}" alt="Man">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -292,7 +292,7 @@
                 Please note candidate id and Certificate id start with CAN_</p>
 
 
-            <img src="{{asset('assets/images/about/4.png')}}" alt="">
+            <img src="{{asset('public/assets/images/about/4.png')}}" alt="">
         </center>
 
     </div>
@@ -317,7 +317,7 @@
                     </div>
                     </form>
                     <div class="image">
-                        <img src="{{asset('assets/images/advertise/advertise1.png')}}" alt="Advertise">
+                        <img src="{{asset('public/assets/images/advertise/advertise1.png')}}" alt="Advertise">
                     </div>
                 </div>
            </div>
@@ -332,7 +332,7 @@
                         <a href="#" class="theme-btn style-two">Pdf Download <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <div class="image">
-                        <img src="{{asset('assets/images/advertise/advertise2.png')}}" alt="Advertise">
+                        <img src="{{asset('public/assets/images/advertise/advertise2.png')}}" alt="Advertise">
                     </div>
                 </div>
            </div>
@@ -363,13 +363,13 @@
                                 <div class="col-md-4 col-sm-6">
                                     <div class="category-item mt-35">
                                         <div class="icon">
-                                            <img src="{{asset('assets/images/categories/icon1.png')}}" alt="Icon">
+                                            <img src="{{asset('public/assets/images/categories/icon1.png')}}" alt="Icon">
                                         </div>
                                         <h4>Web Design</h4>
                                     </div>
                                     <div class="category-item">
                                         <div class="icon">
-                                            <img src="{{asset('assets/images/categories/icon2.png')}}" alt="Icon">
+                                            <img src="{{asset('public/assets/images/categories/icon2.png')}}" alt="Icon">
                                         </div>
                                         <h4>Development</h4>
                                     </div>
@@ -377,13 +377,13 @@
                                 <div class="col-md-4 col-sm-6">
                                     <div class="category-item">
                                         <div class="icon">
-                                            <img src="{{asset('assets/images/categories/icon3.png')}}" alt="Icon">
+                                            <img src="{{asset('public/assets/images/categories/icon3.png')}}" alt="Icon">
                                         </div>
                                         <h4>Marketing</h4>
                                     </div>
                                     <div class="category-item">
                                         <div class="icon">
-                                            <img src="{{asset('assets/images/categories/icon4.png')}}" alt="Icon">
+                                            <img src="{{asset('public/assets/images/categories/icon4.png')}}" alt="Icon">
                                         </div>
                                         <h4>Technology</h4>
                                     </div>
@@ -391,13 +391,13 @@
                                 <div class="col-md-4 col-sm-6">
                                     <div class="category-item mt-40">
                                         <div class="icon">
-                                            <img src="{{asset('assets/images/categories/icon5.png')}}" alt="Icon">
+                                            <img src="{{asset('public/assets/images/categories/icon5.png')}}" alt="Icon">
                                         </div>
                                         <h4>Technology</h4>
                                     </div>
                                     <div class="category-item">
                                         <div class="icon">
-                                            <img src="{{asset('assets/images/categories/icon6.png')}}" alt="Icon">
+                                            <img src="{{asset('public/assets/images/categories/icon6.png')}}" alt="Icon">
                                         </div>
                                         <h4>SEO Optimize</h4>
                                     </div>

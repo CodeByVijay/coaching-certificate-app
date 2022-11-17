@@ -11,29 +11,29 @@
     <div class="container">
         <!-- <div class="logo-inner style-two pt-85 pb-35">
                     <div class="logo-item">
-                        <a href="about.html"><img src="assets/images/client-logos/client-logo-two1.png" alt="Client Logo"></a>
+                        <a href="about.html"><img src="public/assets/images/client-logos/client-logo-two1.png" alt="Client Logo"></a>
                     </div>
                     <div class="logo-item">
-                        <a href="about.html"><img src="assets/images/client-logos/client-logo-two5.png" alt="Client Logo"></a>
+                        <a href="about.html"><img src="public/assets/images/client-logos/client-logo-two5.png" alt="Client Logo"></a>
                     </div>
                     <div class="logo-item">
-                        <a href="about.html"><img src="assets/images/client-logos/client-logo-two3.png" alt="Client Logo"></a>
+                        <a href="about.html"><img src="public/assets/images/client-logos/client-logo-two3.png" alt="Client Logo"></a>
                     </div>
                     <div class="logo-item">
-                        <a href="about.html"><img src="assets/images/client-logos/client-logo-two4.png" alt="Client Logo"></a>
+                        <a href="about.html"><img src="public/assets/images/client-logos/client-logo-two4.png" alt="Client Logo"></a>
                     </div>
                     <div class="logo-item">
-                        <a href="about.html"><img src="assets/images/client-logos/client-logo-two2.png" alt="Client Logo"></a>
+                        <a href="about.html"><img src="public/assets/images/client-logos/client-logo-two2.png" alt="Client Logo"></a>
                     </div>
                     <div class="logo-item">
-                        <a href="about.html"><img src="assets/images/client-logos/client-logo-two6.png" alt="Client Logo"></a>
+                        <a href="about.html"><img src="public/assets/images/client-logos/client-logo-two6.png" alt="Client Logo"></a>
                     </div>
                 </div> -->
         <div class="row large-gap justify-content-between pt-85">
             <div class="col-lg-3 col-sm-4">
                 <div class="footer-widget about-widget">
                     <div class="footer-logo mb-25">
-                        <a href="index.html"><img src="assets/images/logos/2.png" alt="Logo"></a>
+                        <a href="index.html"><img src="public/assets/images/logos/2.png" alt="Logo"></a>
                     </div>
                     <p>Vip Digital Hub Coaching Institute in Balaghat . IT is Best Computer Education Institute in balaghat. </p>
                     <div class="social-style-one pt-10">

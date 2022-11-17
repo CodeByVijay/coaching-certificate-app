@@ -37,7 +37,7 @@
 
                     <div class="header-inner d-flex align-items-center justify-content-between">
                         <div class="logo-outer">
-                            <div class="logo"><a href="{{url('/')}}"><img src="{{asset('assets/images/logos/2.png')}}" alt="Logo" title="Logo"></a></div>
+                            <div class="logo"><a href="{{url('/')}}"><img src="{{asset('public/assets/images/logos/2.png')}}" alt="Logo" title="Logo"></a></div>
                         </div>
 
                         <div class="nav-outer clearfix">
@@ -46,7 +46,7 @@
                                 <div class="navbar-header">
                                    <div class="mobile-logo">
                                        <a href="#">
-                                            <img src="{{asset('assets/images/logos/2.png')}}" alt="Logo" title="Logo">
+                                            <img src="{{asset('public/assets/images/logos/2.png')}}" alt="Logo" title="Logo">
                                        </a>
                                    </div>
 

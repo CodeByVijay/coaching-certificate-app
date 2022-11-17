@@ -3,7 +3,7 @@
 @section('containt')
 
     <!-- Page Banner Start -->
-    <section class="page-banner-area rel z-1 text-white text-center" style="background-image: url(assets/images/1.jpg);">
+    <section class="page-banner-area rel z-1 text-white text-center" style="background-image: url(public/assets/images/1.jpg);">
         <div class="container">
             <div class="banner-inner rpt-10">
                 <h2 class="page-title wow fadeInUp delay-0-2s">Contact Us</h2>
@@ -15,8 +15,8 @@
                 </nav>
             </div>
         </div>
-        <img class="circle-one" src="{{ asset('assets/images/shapes/circle-one.png') }}" alt="Circle">
-        <img class="circle-two" src="{{ asset('assets/images/shapes/circle-two.png') }}" alt="Circle">
+        <img class="circle-one" src="{{ asset('public/assets/images/shapes/circle-one.png') }}" alt="Circle">
+        <img class="circle-two" src="{{ asset('public/assets/images/shapes/circle-two.png') }}" alt="Circle">
     </section>
     <!-- Page Banner End -->
 
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-page-image wow fadeInUp delay-0-4s">
-                        <img src="{{ asset('assets/images/contact/ww.png') }}" alt="Contact Page">
+                        <img src="{{ asset('public/assets/images/contact/ww.png') }}" alt="Contact Page">
                     </div>
                 </div>
             </div>

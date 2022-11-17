@@ -36,8 +36,8 @@ Route::post('verify-certificate',[HomeController::class,'VerifyCertificate'])->n
 // ========================== Front End Routes End =============================//
 
 //=========================== Admin Routes ===========================//
-Route::get('/login',[AuthController::class,'loginView'])->name('login');
-Route::post('login', [AuthController::class, 'login'])->name('admin.login');
+Route::get('login',[AuthController::class,'loginView'])->name('login');
+Route::post('login-admin', [AuthController::class, 'login'])->name('admin.login');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/admin',[AdminHomeController::class,'dashboard'])->name('dashboard');
